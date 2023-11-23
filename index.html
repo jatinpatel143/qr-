@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>qr code app</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-secondary">
+    <div class="container-md d-flex align-items-center justify-content-center">
+      <a class="navbar-brand text-danger fs-2" href="#">Qr code app</a>
+    </div>
+  </nav>
+
+  <div class="countainer p-5">
+    <form class="form-control rounded-0 ">
+      <input class="form-control rounded-0 w-100 my-3" type="text" placeholder="enter your url">
+      <select name="" id="size" class="form-control rounded-0">
+        <option value="250x250">250X250</option>
+        <option value="500X500">500X500</option>
+        <option value="750x750">750X750</option>
+        <option value="1000x1000">1000X1000</option>
+
+      </select>
+      <button class="w-100 btn btn-success rounded-0 my-3">submit</button>
+      <button id="btn" class="btn btn-primary w-100 rounded-0  my-3 ">Download</button>
+
+
+
+    </form>
+    <div class="d-flex align-items-cent er justify-content-center my-3">
+
+      <img class="img-fluid " src="image.png" alt="">
+
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
